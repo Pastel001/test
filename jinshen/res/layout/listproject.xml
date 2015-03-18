@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="项目名称" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/projectName" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="项目承担部门" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/proDept" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="项目责任人" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/proLeader" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="开始日期" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/proBegindate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="项目预算" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/proBudget" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="备注" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20sp" />
+		<EditText android:id="@+id/proRemark" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+
+
+</LinearLayout>
